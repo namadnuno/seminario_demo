@@ -9,9 +9,9 @@ function view($view, $vars = [])
     include __DIR__ . '/../views/' . str_replace('.', '/', $view) . '.view.php';
 }
 
-function dd($mixed)
-{
-    echo '<pre>';
-    var_dump($mixed);
-    die(1);
-}
+// function dd($mixed)
+// {
+//     echo '<pre>';
+//     var_dump($mixed);
+//     die(1);
+// }

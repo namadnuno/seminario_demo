@@ -26,7 +26,7 @@
                         <h1 class="card-title pricing-card-title">Temp. 0 <small class="text-muted">ºC</small></h1>
                         <h1 class="card-title pricing-card-title">Hum. 0 <small class="text-muted">%</small></h1>
                      </div>
-                  </div>
+                  </div>    
                 </div>
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">

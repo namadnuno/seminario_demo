@@ -1,6 +1,8 @@
 <?php 
 
-class Storage implements StorageInterface
+namespace Acme\Storage;
+
+class Storage 
 {
     /**
      * Get content from file
@@ -10,7 +12,7 @@ class Storage implements StorageInterface
      */
     public function get($fileName) 
     {
-        return file_get_contents(__DIR__ ."../Storage/files/". $fileName);
+        return file_get_contents(__DIR__ ."/../Storage/files/". $fileName);
     }
 
     /**
@@ -22,6 +24,6 @@ class Storage implements StorageInterface
      */
     public function save($fileName, $data) 
     {
-        return file_put_contents(__DIR__ ."../Storage/files/". $fileName, $data);
+        return file_put_contents(__DIR__ ."/../Storage/files/". $fileName, $data);
     }
 }
